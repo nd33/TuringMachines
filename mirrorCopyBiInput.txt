@@ -1,0 +1,41 @@
+states 9
+s-1
+s0
+copy1R
+copy0R
+searchL
+copyLast0R
+copyLast1R
+finalise
+accept +
+alphabet 6 0 1 o l O L
+s-1 0 s0 O R
+s-1 1 s0 L R
+s-1 _ accept _ S
+s0 _ searchL _ L
+s0 1 s0 1 R
+s0 0 s0 0 R
+searchL l searchL l L
+searchL o searchL o L
+searchL 0 copy0R o R
+searchL 1 copy1R l R
+searchL O copyLast0R O R
+searchL L copyLast1R L R
+copy0R l copy0R l R
+copy0R o copy0R o R
+copy0R _ searchL o L
+copy1R l copy1R l R
+copy1R o copy1R o R
+copy1R _ searchL l L
+copyLast0R l copyLast0R l R
+copyLast0R o copyLast0R o R
+copyLast0R _ finalise 0 S
+copyLast1R l copyLast1R l R
+copyLast1R o copyLast1R o R
+copyLast1R _ finalise 1 S
+finalise l finalise 1 L
+finalise o finalise 0 L
+finalise 0 finalise 0 L
+finalise 1 finalise 1 L
+finalise L accept 1 S
+finalise O accept 0 S

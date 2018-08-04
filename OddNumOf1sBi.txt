@@ -1,0 +1,10 @@
+states 3
+s0
+s1
+accept +
+alphabet 2 0 1
+s0 1 s1 1 R
+s0 0 s0 0 R
+s1 1 s0 1 R
+s1 0 s1 0 R
+s1 _ accept _ S

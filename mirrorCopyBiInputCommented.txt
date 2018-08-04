@@ -1,0 +1,41 @@
+states 9
+s-1
+s0
+copy1R //copy 1 and move right to paste it
+copy0R // copy 0 and move right to paste it
+searchL // search for 0 or 1 to the left
+copyLast0R // copy last symbol if 0
+copyLast1R // copy last symbol if 1
+finalise // replace o's, l's, O and L
+accept +
+alphabet 6 0 1 o l O L // O and L used to represent start of tape
+s-1 0 s0 O R // before starting to copy save start of tape
+s-1 1 s0 L R
+s-1 _ accept _ S
+s0 _ searchL _ L // start search for symbol to copy
+s0 1 s0 1 R // skip to first blank symbol
+s0 0 s0 0 R
+searchL l searchL l L // skip already copied symbols
+searchL o searchL o L
+searchL 0 copy0R o R
+searchL 1 copy1R l R
+searchL O copyLast0R O R // proceed to copy last symbol
+searchL L copyLast1R L R
+copy0R l copy0R l R // skip already copied
+copy0R o copy0R o R
+copy0R _ searchL o L // paste temporary symbol
+copy1R l copy1R l R
+copy1R o copy1R o R
+copy1R _ searchL l L
+copyLast0R l copyLast0R l R  // copy last symbol
+copyLast0R o copyLast0R o R
+copyLast0R _ finalise 0 S
+copyLast1R l copyLast1R l R
+copyLast1R o copyLast1R o R
+copyLast1R _ finalise 1 S
+finalise l finalise 1 L // finalise tape by replacing symbols accordingly
+finalise o finalise 0 L
+finalise 0 finalise 0 L
+finalise 1 finalise 1 L
+finalise L accept 1 S
+finalise O accept 0 S

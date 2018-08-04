@@ -1,0 +1,13 @@
+states 4
+rem0
+rem1
+rem2
+accept +
+alphabet 2 0 1
+rem0 _ accept _ S
+rem0 0 rem0 0 R
+rem0 1 rem1 1 R
+rem1 0 rem2 0 R
+rem1 1 rem0 1 R
+rem2 0 rem1 0 R
+rem2 1 rem2 1 R

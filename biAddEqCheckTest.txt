@@ -1,0 +1,125 @@
+Input:11#11#011
+Enter TM description file name: biAddEqCheck.txt
+Enter TM input file name: in.txt
+Current state is : s0
+_1#11#011
+Current state is : s1r
+_1#11#011
+Current state is : s1r
+_1#11#011
+Current state is : #1r
+_1#_1#011
+Current state is : -carried
+_1#_0#011
+Current state is : -carried
+_1#_01011
+Current state is : sRewriting#
+_1#_01#11
+Current state is : sRewriting0
+_1#_01#01
+Current state is : sRewriting1
+_1#_01#01
+Current state is : sRewriting1
+_1#_01#011
+Current state is : rewBack
+_1#_01#011
+Current state is : rewBack
+_1#_01#011
+Current state is : rewBack
+_1#_01#011
+Current state is : comp0r
+_1#_01#_11
+Current state is : decide
+_1#_01#_11
+Current state is : reset#1
+_1#_01#_11
+Current state is : reset#1
+_1#_01#_11
+Current state is : reset#2
+_1#_01#_11
+Current state is : reset#2
+_1#_01#_11
+Current state is : reset#2
+_1#_01#_11
+Current state is : reset#2
+_1#_01#_11
+Current state is : reset#3
+_1#_01#_11
+Current state is : reset#3
+_1#_01#_11
+Current state is : s0
+__#_01#_11
+Current state is : s1r
+__#_01#_11
+Current state is : #1r
+__#_01#_11
+Current state is : #1r
+__#__1#_11
+Current state is : g1r
+__#__1#_11
+Current state is : g1r
+__#__1#_11
+Current state is : comp1r
+__#__1#_11
+Current state is : comp1r
+__#__1#__1
+Current state is : decide
+__#__1#__1
+Current state is : reset#1
+__#__1#__1
+Current state is : reset#1
+__#__1#__1
+Current state is : reset#1
+__#__1#__1
+Current state is : reset#2
+__#__1#__1
+Current state is : reset#2
+__#__1#__1
+Current state is : reset#2
+__#__1#__1
+Current state is : reset#2
+__#__1#__1
+Current state is : reset#3
+__#__1#__1
+Current state is : s0
+__#__1#__1
+Current state is : #0r
+__#__1#__1
+Current state is : #0r
+__#__1#__1
+Current state is : #0r
+__#___#__1
+Current state is : g1r
+__#___#__1
+Current state is : comp1r
+__#___#__1
+Current state is : comp1r
+__#___#__1
+Current state is : comp1r
+__#___#___
+Current state is : decide
+__#___#____
+Current state is : decideCheck
+__#___#____
+Current state is : decideCheck
+__#___#____
+Current state is : decideCheck
+__#___#____
+Current state is : decideCheck
+__#___#____
+Current state is : decideCheck2
+__#___#____
+Current state is : decideCheck2
+__#___#____
+Current state is : decideCheck2
+__#___#____
+Current state is : decideCheck2
+__#___#____
+Current state is : decideCheck3
+__#___#____
+Current state is : accept
+
+Input Accepted
+Input size is: 9
+Transitions made: 58
+Space taken: 11

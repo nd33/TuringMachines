@@ -1,0 +1,10 @@
+states 3
+s0
+s1
+accept +
+alphabet 2 0 1
+s0 1 s1 1 R // when even number 1s and see one move to odd num of 1s state
+s0 0 s0 0 R // don't care for 0s
+s1 1 s0 1 R // when odd number of 1s and see one move to even num of 1s state
+s1 0 s1 0 R // don't care for 0s
+s1 _ accept _ S // accept if odd number of ones at end of input

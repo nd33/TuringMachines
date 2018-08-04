@@ -1,0 +1,853 @@
+Input:11100011010111
+Enter TM description file name: mirrorCopyBiInput.txt
+Enter TM input file name: in.txt
+Current state is : s-1
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111
+Current state is : s0
+L1100011010111_
+Current state is : searchL
+L110001101011l_
+Current state is : copy1R
+L110001101011ll
+Current state is : searchL
+L110001101011ll
+Current state is : searchL
+L11000110101lll
+Current state is : copy1R
+L11000110101lll
+Current state is : copy1R
+L11000110101lll
+Current state is : copy1R
+L11000110101llll
+Current state is : searchL
+L11000110101llll
+Current state is : searchL
+L11000110101llll
+Current state is : searchL
+L11000110101llll
+Current state is : searchL
+L1100011010lllll
+Current state is : copy1R
+L1100011010lllll
+Current state is : copy1R
+L1100011010lllll
+Current state is : copy1R
+L1100011010lllll
+Current state is : copy1R
+L1100011010lllll
+Current state is : copy1R
+L1100011010llllll
+Current state is : searchL
+L1100011010llllll
+Current state is : searchL
+L1100011010llllll
+Current state is : searchL
+L1100011010llllll
+Current state is : searchL
+L1100011010llllll
+Current state is : searchL
+L1100011010llllll
+Current state is : searchL
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllll
+Current state is : copy0R
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L110001101ollllllo
+Current state is : searchL
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllo
+Current state is : copy1R
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L11000110lollllllol
+Current state is : searchL
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllol
+Current state is : copy0R
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L1100011olollllllolo
+Current state is : searchL
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolo
+Current state is : copy1R
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L110001lolollllllolol
+Current state is : searchL
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllolol
+Current state is : copy1R
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L11000llolollllllololl
+Current state is : searchL
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllololl
+Current state is : copy0R
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L1100ollolollllllolollo
+Current state is : searchL
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllolollo
+Current state is : copy0R
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L110oollolollllllololloo
+Current state is : searchL
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllololloo
+Current state is : copy0R
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L11ooollolollllllolollooo
+Current state is : searchL
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllolollooo
+Current state is : copy1R
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+L1looollolollllllololloool
+Current state is : searchL
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloool
+Current state is : copy1R
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : searchL
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll
+Current state is : copyLast1R
+Lllooollolollllllololloooll1
+Current state is : finalise
+Lllooollolollllllololloooll1
+Current state is : finalise
+Lllooollolollllllololloool11
+Current state is : finalise
+Lllooollolollllllolollooo111
+Current state is : finalise
+Lllooollolollllllololloo0111
+Current state is : finalise
+Lllooollolollllllolollo00111
+Current state is : finalise
+Lllooollolollllllololl000111
+Current state is : finalise
+Lllooollolollllllolol1000111
+Current state is : finalise
+Lllooollolollllllolo11000111
+Current state is : finalise
+Lllooollolollllllol011000111
+Current state is : finalise
+Lllooollolollllllo1011000111
+Current state is : finalise
+Lllooollolollllll01011000111
+Current state is : finalise
+Lllooollololllll101011000111
+Current state is : finalise
+Lllooollolollll1101011000111
+Current state is : finalise
+Lllooollololll11101011000111
+Current state is : finalise
+Lllooollololl111101011000111
+Current state is : finalise
+Lllooollolol1111101011000111
+Current state is : finalise
+Lllooollolo11111101011000111
+Current state is : finalise
+Lllooollol011111101011000111
+Current state is : finalise
+Lllooollo1011111101011000111
+Current state is : finalise
+Llloooll01011111101011000111
+Current state is : finalise
+Llloool101011111101011000111
+Current state is : finalise
+Lllooo1101011111101011000111
+Current state is : finalise
+Llloo01101011111101011000111
+Current state is : finalise
+Lllo001101011111101011000111
+Current state is : finalise
+Lll0001101011111101011000111
+Current state is : finalise
+Ll10001101011111101011000111
+Current state is : finalise
+L110001101011111101011000111
+Current state is : finalise
+1110001101011111101011000111
+Current state is : accept
+
+Input Accepted
+Input size is: 14
+Transitions made: 422
+Space taken: 28

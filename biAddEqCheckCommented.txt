@@ -1,0 +1,124 @@
+states 13
+s0
+s0R // we have found 0 and are moving right
+#0R //  # to mean we have reached first hash tag with 0
+g0R // g to mean we "GO" to final # with 0
+g1R
+comp0R // we need to compare with 0
+comp1R
+reset#1
+reset#2
+reset#3 // get back to start of input
+s1R
+#1R
+-carried // 1 not carried yet
+sRewriting_ // rewrite states for rewriting part of input that needs to be rewritten after carry overflow
+sRewriting0
+sRewriting1
+sRewriting#
+rewBack
+decideCheck
+decideCheck2
+decideCheck3 // decide whether to accept input or continue comparison (1,2,3 to reach start of input)
+reject
+accept +
+alphabet 3 0 1 #
+
+//initial state transitions
+s0 _ s0 _ R
+s0 0 s0r _ R //setting to "f" meaning first number digit
+s0 1 s1r _ R
+s0 # #0r # R // if first number has less digits and no symbol left from it assume 0
+
+//moving right with 0
+s0r 0 s0r 0 R
+s0r 1 s0r 1 R
+s0r # #0r # R
+
+//reached first # with 0
+#0r _ #0r _ R
+#0r 0 g0r _ R
+#0r 1 g1r _ R
+#0r # comp0r # R
+
+//going to final # with 0
+g0r 0 g0r 0 R
+g0r 1 g0r 1 R
+g0r # comp0r # R
+
+//going to final # with 1
+g1r 0 g0r 0 R
+g1r 1 g0r 1 R
+g1r # comp1r # R
+
+//compare 0 and X
+comp0r _ comp0r _ R
+comp0r 0 decide _ R
+comp0r 1 reject 1 S
+
+//compare 1 and X
+comp1r _ comp1r _ R
+comp1r 0 reject 0 S
+comp1r 1 decide _ R
+
+//decide whether we have finished comparing or need to continue
+decide _ decideCheck _ L
+decideCheck _ decideCheck _ L
+decideCheck # decideCheck2 # L
+decideCheck2 0 reject 0 L
+decideCheck2 1 reject 1 L         // decide check states used to reach start of input while checking
+decideCheck2 _ decideCheck2 _ L   // if there are any 0s or 1s left in any of the additives when
+decideCheck2 # decideCheck3 # L   // the sum has no more digits, which if true leads to reject state
+decideCheck3 0 reject 0 L
+decideCheck3 1 reject 1 L
+decideCheck3 _ accept _ S
+decide 1 reset#1 1 L
+decide 0 reset#1 0 L
+
+//reset to beginning of input after comparing each digit
+reset#1 _ reset#1 _ L
+reset#1 # reset#2 # L
+reset#2 0 reset#2 0 L // again 1,2,3 to distinguish additives and sum
+reset#2 1 reset#2 1 L
+reset#2 _ reset#2 _ L
+reset#2 # reset#3 # L
+reset#3 0 reset#3 0 L
+reset#3 1 reset#3 1 L
+reset#3 _ s0 _ R
+
+//moving right with 1 (possibly end up in carry state later here)
+s1r 0 s1r 0 R
+s1r 1 s1r 1 R
+s1r # #1r # R
+
+//reached first # with 1
+#1r _ #0r _ R
+#1r 0 g1r _ R
+#1r 1 -carried _ R
+#1r # comp1r # R
+
+// try to write carry 
+-carried 1 -carried 0 R
+-carried 0 g0r 1 R
+-carried # sRewriting# 1 R // carry overflows so need to shift everything >
+
+// rewrite everything after the overflow
+sRewriting# 1 sRewriting1 # R
+sRewriting# 0 sRewriting0 # R
+sRewriting# _ sRewriting_ # R
+sRewriting_ 1 sRewriting1 _ R
+sRewriting_ 0 sRewriting0 _ R
+sRewriting_ _ sRewriting_ _ R
+sRewriting0 0 sRewriting0 0 R
+sRewriting0 1 sRewriting1 0 R
+sRewriting0 _ rewBack 0 L
+sRewriting1 0 sRewriting0 1 R
+sRewriting1 1 sRewriting1 1 R
+sRewriting1 _ rewBack 1 L
+
+//return to appropriate position after rewriting to compare digits
+rewBack 0 rewBack 0 L
+rewBack 1 rewBack 1 L
+rewBack _ rewBack _ L
+rewBack # comp0r # R // comparing with 0 because we had a carry
+

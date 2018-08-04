@@ -1,0 +1,13 @@
+states 4
+rem0 // no remainder
+rem1 // remainder 1
+rem2 // remainder 2
+accept +
+alphabet 2 0 1
+rem0 _ accept _ S // accept if remainder is 0 at the end
+rem0 0 rem0 0 R // if input is 0 and remainder is already 0 it remains 0
+rem0 1 rem1 1 R // if input is 1 and remainder is 0 remainder > 0
+rem1 0 rem2 0 R // remainder on modulo 3 stays > 0
+rem1 1 rem0 1 R // if input is 1 when remainder is > 0 remainder becomes 0
+rem2 0 rem1 0 R // if 0 and mod is 1 mod becomes 1
+rem2 1 rem2 1 R // if 1 remain in remainder > 0 state

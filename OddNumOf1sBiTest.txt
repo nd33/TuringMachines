@@ -1,0 +1,39 @@
+Input:11100011010111
+Enter TM description file name: OddNumOf1sBi.txt
+Enter TM input file name: in.txt
+Current state is : s0
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s0
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s0
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s0
+11100011010111
+Current state is : s0
+11100011010111
+Current state is : s1
+11100011010111
+Current state is : s0
+11100011010111
+Current state is : s1
+11100011010111_
+Current state is : accept
+
+Input Accepted
+Input size is: 14
+Transitions made: 15
+Space taken: 15

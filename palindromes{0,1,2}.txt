@@ -1,0 +1,74 @@
+states 16
+s0
+s0R
+s1R
+s2R
+r0L
+r1L
+r2L
+s1
+s0L
+s1L
+s2L
+r0R
+r1R
+r2R
+sReject
+accept +
+alphabet 3 0 1 2
+s0 0 s0R _ R
+s0 1 s1R _ R
+s0 2 s2R _ R
+s0R 0 s0R 0 R
+s0R 1 s0R 1 R
+s0R 2 s0R 2 R
+s1R 0 s1R 0 R
+s1R 1 s1R 1 R
+s1R 2 s1R 2 R
+s2R 0 s2R 0 R
+s2R 1 s2R 1 R
+s2R 2 s2R 2 R
+s0R _ r0L _ L
+r0L 0 s1 _ L
+s1R _ r1L _ L
+r1L 1 s1 _ L
+s2R _ r2L _ L
+r2L 2 s1 _ L
+s1 0 s0L _ L
+s1 1 s1L _ L
+s1 2 s2L _ L
+s0L 0 s0L 0 L
+s0L 1 s0L 1 L
+s0L 2 s0L 2 L
+s1L 0 s1L 0 L
+s1L 1 s1L 1 L
+s1L 2 s1L 2 L
+s2L 0 s2L 0 L
+s2L 1 s2L 1 L
+s2L 2 s2L 2 L
+s0L _ r0R _ R
+r0R 0 s0 _ R
+s1L _ r1R _ R
+r1R 1 s0 _ R
+s2L _ r2R _ R
+r2R 2 s0 _ R
+r0R 1 sReject 1 S
+r0R 2 sReject 2 S
+r1R 0 sReject 0 S
+r1R 2 sReject 2 S
+r2R 0 sReject 0 S
+r2R 1 sReject 1 S
+r0L 1 sReject 1 S
+r0L 2 sReject 2 S
+r1L 0 sReject 0 S
+r1L 2 sReject 2 S
+r2L 0 sReject 0 S
+r2L 1 sReject 1 S
+s0 _ accept _ S
+s1 _ accept _ S
+r0L _ accept _ S
+r1L _ accept _ S
+r2L _ accept _ S
+r0R _ accept _ S
+r1R _ accept _ S
+r2R _ accept _ S
